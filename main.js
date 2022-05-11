@@ -46,7 +46,7 @@ function showScreen(resp) {
 
 function showError(erro) {
     $('.introFlex').css('display', 'none');
-    $('.itemsBox').css('display', 'flex');
+    $('.itemsBox').css('display', 'none');
     $('.textBoxDesc').css("display", "none");
     $('.video').css("display", "none");
     $('.divImg').css("display", "none");
