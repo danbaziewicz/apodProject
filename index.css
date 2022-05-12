@@ -62,6 +62,10 @@ footer {
     color: #e5e5e5;
 }
 
+footer span {
+    text-align: center;
+}
+
 .footerFlex {
     display: flex;
     flex-direction: row;
@@ -81,4 +85,10 @@ footer a {
 .footerIcon:hover {
     background-color: #FCA311;
     border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
 }
